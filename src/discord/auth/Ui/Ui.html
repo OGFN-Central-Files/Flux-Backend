@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            overflow: hidden;
+        }
+
+        .bg-decoration {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .bg-decoration:nth-child(1) {
+            width: 200px;
+            height: 200px;
+            top: 10%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+
+        .bg-decoration:nth-child(2) {
+            width: 150px;
+            height: 150px;
+            top: 70%;
+            right: 15%;
+            animation-delay: 2s;
+        }
+
+        .bg-decoration:nth-child(3) {
+            width: 100px;
+            height: 100px;
+            bottom: 20%;
+            left: 20%;
+            animation-delay: 4s;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+
+        @keyframes slideUp {
+            from { 
+                opacity: 0; 
+                transform: translateY(40px) scale(0.9); 
+            }
+            to { 
+                opacity: 1; 
+                transform: translateY(0) scale(1); 
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .profile-container {
+            background: rgba(29, 29, 29, 0.95);
+            backdrop-filter: blur(20px);
+            padding: 3rem;
+            border-radius: 24px;
+            box-shadow: 
+                0 20px 40px rgba(0, 0, 0, 0.1),
+                0 0 0 1px rgba(0, 0, 0, 0.3);
+            max-width: 420px;
+            width: 90%;
+            animation: slideUp 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            z-index: 10;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-picture::before {
+            font-size: 3rem;
+            color: white;
+            position: absolute;
+            z-index: 1;
+            transition: opacity 0.3s ease;
+        }
+
+        .profile-picture img[src]:not([src=""]) + ::before {
+            opacity: 0;
+        }
+
+        .profile-info {
+            text-align: center;
+            color: #1f2937;
+        }
+
+        .username {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            color: #6b7280;
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+
+        .login-button {
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 16px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: inherit;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            min-width: 200px;
+        }
+
+        .login-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .login-button:hover::before {
+            left: 100%;
+        }
+
+        .login-button:hover {
+            transform: translateY(-2px);
+        }
+
+        .login-button:active {
+            transform: translateY(0);
+        }
+
+        @media (max-width: 480px) {
+            .profile-container {
+                padding: 2rem;
+                margin: 1rem;
+            }
+            
+            .username {
+                font-size: 1.5rem;
+            }
+            
+            .login-button {
+                padding: 0.875rem 1.5rem;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-decoration"></div>
+    <div class="bg-decoration"></div>
+    <div class="bg-decoration"></div>
+
+    <div class="profile-container">
+        <div class="profile-picture">
+            <img id="profile-pic" src="" alt="Profile Picture" onerror="this.style.display='none'; this.parentElement.style.background='none';">
+        </div>
+        <div class="profile-info">
+            <div class="username" id="username">Welcome Back</div>
+            <div class="subtitle">Ready to launch your experience</span></div>
+            <button class="login-button" onclick="window.location.href='launcher:'">
+                Login to Launcher
+            </button>
+        </div>
+    </div>
+
+    <script>
+        async function loadUserData() {
+            try {
+                const response = await fetch('/api/user', {
+                    credentials: 'include'
+                });
+                const user = await response.json();
+                console.log('User data:', user);
+
+                document.getElementById('username').textContent = user.username || 'Unknown User';
+
+                const profilePic = document.getElementById('profile-pic');
+                let avatarUrl = '';
+                if (user.avatar) {
+                    avatarUrl = `https://cdn.discordapp.com/avatars/${user.discordId}/${user.avatar}.png`;
+                } else {
+                    const defaultAvatarIndex = (Number(user.discriminator) % 5);
+                    avatarUrl = `https://cdn.discordapp.com/embed/avatars/${defaultAvatarIndex}.png`;
+                }
+                profilePic.src = avatarUrl;
+
+                profilePic.onload = () => {
+                    profilePic.style.display = 'block';
+                    profilePic.parentElement.style.background = 'linear-gradient(135deg, #6366f1, #8b5cf6)';
+                };
+                profilePic.onerror = () => {
+                    profilePic.style.display = 'none';
+                    profilePic.parentElement.style.background = 'none';
+                };
+            } catch (error) {
+                console.error('Error loading user data:', error);
+                window.location.href = '/auth/discord';
+            }
+        }
+
+        loadUserData();
+    </script>
+</body>
+</html>

@@ -1,0 +1,1129 @@
+{
+  "refreshIntervalHrs": 24,
+  "dailyPurchaseHrs": 24,
+  "expiration": "9999-12-31T00:00:00.000Z",
+  "storefronts": [
+    {
+      "name": "BRDailyStorefront",
+      "catalogEntries": [
+        {
+          "offerId": "5b2eb501-d8b3-48c0-be91-bea4f69999de",
+          "devName": "AthenaEmoji:Emoji_Disco",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 564,
+              "finalPrice": 564,
+              "basePrice": 564,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaEmoji:Emoji_Disco",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaEmoji:Emoji_Disco",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 1,
+          "catalogGroupPriority": 0,
+          "categories": [
+            "Panel 1"
+          ]
+        },
+        {
+          "offerId": "bb92f536-8e92-4af5-b399-d2d38363bf61",
+          "devName": "AthenaPickaxe:Pickaxe_ID_241_KnightRemix",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 1000,
+              "finalPrice": 1000,
+              "basePrice": 1000,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaPickaxe:Pickaxe_ID_241_KnightRemix",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaPickaxe:Pickaxe_ID_241_KnightRemix",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 1,
+          "catalogGroupPriority": 0,
+          "categories": [
+            "Panel 2"
+          ]
+        },
+        {
+          "offerId": "e48ee9cc-0fee-42c0-b5e7-06dd1c76f2e3",
+          "devName": "AthenaSpray:SPID_117_NoSymbol",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 655,
+              "finalPrice": 655,
+              "basePrice": 655,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaSpray:SPID_117_NoSymbol",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaSpray:SPID_117_NoSymbol",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 1,
+          "catalogGroupPriority": 0,
+          "categories": [
+            "Panel 3"
+          ]
+        },
+        {
+          "offerId": "dadea0c5-1576-4d0c-bc1b-2abfac8b501b",
+          "devName": "AthenaCharacter:CID_641_Athena_Commando_M_SweaterWeather",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 1200,
+              "finalPrice": 1200,
+              "basePrice": 1200,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaCharacter:CID_641_Athena_Commando_M_SweaterWeather",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaCharacter:CID_641_Athena_Commando_M_SweaterWeather",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 1,
+          "catalogGroupPriority": 0,
+          "categories": [
+            "Panel 4"
+          ]
+        },
+        {
+          "offerId": "8b66104c-3db2-4d5e-b802-d01be2abc7a8",
+          "devName": "AthenaDance:EID_FireworksSpin",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 500,
+              "finalPrice": 500,
+              "basePrice": 500,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaDance:EID_FireworksSpin",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaDance:EID_FireworksSpin",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 1,
+          "catalogGroupPriority": 0,
+          "categories": [
+            "Panel 5"
+          ]
+        },
+        {
+          "offerId": "12c038be-f2e7-4781-ba27-5c0b48cbeb9e",
+          "devName": "AthenaSpray:SPID_056_ManholeCover",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 736,
+              "finalPrice": 736,
+              "basePrice": 736,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaSpray:SPID_056_ManholeCover",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaSpray:SPID_056_ManholeCover",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 1,
+          "catalogGroupPriority": 0,
+          "categories": [
+            "Panel 6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BRWeeklyStorefront",
+      "catalogEntries": [
+        {
+          "offerId": "4afb1973-1d4d-4f33-95a4-096bbfa138a2",
+          "devName": "AthenaPickaxe:Pickaxe_ID_140_StreetGoth",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 800,
+              "finalPrice": 800,
+              "basePrice": 800,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaPickaxe:Pickaxe_ID_140_StreetGoth",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaPickaxe:Pickaxe_ID_140_StreetGoth",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 4,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_140_StreetGoth.DA_Featured_Pickaxe_ID_140_StreetGoth",
+          "categories": [
+            "Panel 7"
+          ]
+        },
+        {
+          "offerId": "85b3635b-50ca-4062-b30f-4782ad289677",
+          "devName": "AthenaBackpack:BID_189_StreetGothMale",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 800,
+              "finalPrice": 800,
+              "basePrice": 800,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaBackpack:BID_189_StreetGothMale",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaBackpack:BID_189_StreetGothMale",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 3,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_BID_189_StreetGothMale.DA_Featured_BID_189_StreetGothMale",
+          "categories": [
+            "Panel 7"
+          ]
+        },
+        {
+          "offerId": "5ee1df0b-e77b-4792-a75f-6cdef0d053bf",
+          "devName": "AthenaBackpack:BID_190_StreetGothFemale",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 800,
+              "finalPrice": 800,
+              "basePrice": 800,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaBackpack:BID_190_StreetGothFemale",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaBackpack:BID_190_StreetGothFemale",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 2,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_BID_190_StreetGothFemale.DA_Featured_BID_190_StreetGothFemale",
+          "categories": [
+            "Panel 7"
+          ]
+        },
+        {
+          "offerId": "ab084357-65c2-4a7c-9a7f-dd05925623b9",
+          "devName": "AthenaCharacter:CID_309_Athena_Commando_M_StreetGoth",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 1500,
+              "finalPrice": 1500,
+              "basePrice": 1500,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaCharacter:CID_309_Athena_Commando_M_StreetGoth",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaCharacter:CID_309_Athena_Commando_M_StreetGoth",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 1,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_309_Athena_Commando_M_StreetGoth.DA_Featured_CID_309_Athena_Commando_M_StreetGoth",
+          "categories": [
+            "Panel 7"
+          ]
+        },
+        {
+          "offerId": "315664c2-4dcc-4659-b1bb-b5e73ac663e6",
+          "devName": "AthenaCharacter:CID_310_Athena_Commando_F_StreetGoth",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 1500,
+              "finalPrice": 1500,
+              "basePrice": 1500,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaCharacter:CID_310_Athena_Commando_F_StreetGoth",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaCharacter:CID_310_Athena_Commando_F_StreetGoth",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 1,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_310_Athena_Commando_F_StreetGoth.DA_Featured_CID_310_Athena_Commando_F_StreetGoth",
+          "categories": [
+            "Panel 7"
+          ]
+        },
+        {
+          "offerId": "1747818f-19ee-48df-bc33-2f878c511de4",
+          "devName": "AthenaGlider:Glider_ID_109_StreetGoth",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 500,
+              "finalPrice": 500,
+              "basePrice": 500,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaGlider:Glider_ID_109_StreetGoth",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaGlider:Glider_ID_109_StreetGoth",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 1,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ID_109_StreetGoth.DA_Featured_Glider_ID_109_StreetGoth",
+          "categories": [
+            "Panel 7"
+          ]
+        },
+        {
+          "offerId": "3b729a63-be80-4488-96e7-83ba6c39a62b",
+          "devName": "AthenaBackpack:BID_392_Freak",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 800,
+              "finalPrice": 800,
+              "basePrice": 800,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaBackpack:BID_392_Freak",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaBackpack:BID_392_Freak",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 4,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_BID_392_Freak.DA_Featured_BID_392_Freak",
+          "categories": [
+            "Panel 8"
+          ]
+        },
+        {
+          "offerId": "9351b076-7fe6-472e-a191-a90dba17a14f",
+          "devName": "AthenaCharacter:CID_597_Athena_Commando_M_Freak",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 1500,
+              "finalPrice": 1500,
+              "basePrice": 1500,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaCharacter:CID_597_Athena_Commando_M_Freak",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaCharacter:CID_597_Athena_Commando_M_Freak",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 3,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_597_Athena_Commando_M_Freak.DA_Featured_CID_597_Athena_Commando_M_Freak",
+          "categories": [
+            "Panel 8"
+          ]
+        },
+        {
+          "offerId": "83664103-ae2f-46bd-b4ee-fa5f39478fae",
+          "devName": "AthenaPickaxe:Pickaxe_ID_298_Freak1H",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 800,
+              "finalPrice": 800,
+              "basePrice": 800,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaPickaxe:Pickaxe_ID_298_Freak1H",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaPickaxe:Pickaxe_ID_298_Freak1H",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 2,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_298_Freak1H.DA_Featured_Pickaxe_ID_298_Freak1H",
+          "categories": [
+            "Panel 8"
+          ]
+        },
+        {
+          "offerId": "be284349-8565-493d-bf16-b34a69640be7",
+          "devName": "AthenaItemWrap:Wrap_159_Freak",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 500,
+              "finalPrice": 500,
+              "basePrice": 500,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaItemWrap:Wrap_159_Freak",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaItemWrap:Wrap_159_Freak",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 1,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_159_Freak.DA_Featured_Wrap_159_Freak",
+          "categories": [
+            "Panel 8"
+          ]
+        },
+        {
+          "offerId": "20d39009-38d7-4b3a-926e-bbbd632e5301",
+          "devName": "AthenaLoadingScreen:LSID_125_LavaLegends",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 800,
+              "finalPrice": 800,
+              "basePrice": 800,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaLoadingScreen:LSID_125_LavaLegends",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaLoadingScreen:LSID_125_LavaLegends",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 4,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_LSID_125_LavaLegends.DA_Featured_LSID_125_LavaLegends",
+          "categories": [
+            "Panel 9"
+          ]
+        },
+        {
+          "offerId": "2d333a17-9604-4678-a24c-0a35fcf97880",
+          "devName": "AthenaBackpack:BID_243_BattleHoundFire",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 800,
+              "finalPrice": 800,
+              "basePrice": 800,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaBackpack:BID_243_BattleHoundFire",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaBackpack:BID_243_BattleHoundFire",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 3,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_BID_243_BattleHoundFire.DA_Featured_BID_243_BattleHoundFire",
+          "categories": [
+            "Panel 9"
+          ]
+        },
+        {
+          "offerId": "28e29cf6-08f4-4080-b471-ef13475be1e8",
+          "devName": "AthenaBackpack:BID_244_DarkVikingFire",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 800,
+              "finalPrice": 800,
+              "basePrice": 800,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaBackpack:BID_244_DarkVikingFire",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaBackpack:BID_244_DarkVikingFire",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 2,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_BID_244_DarkVikingFire.DA_Featured_BID_244_DarkVikingFire",
+          "categories": [
+            "Panel 9"
+          ]
+        },
+        {
+          "offerId": "14692f93-798f-4f40-9961-8be5665d8a9e",
+          "devName": "AthenaGlider:Glider_ID_134_DarkVikingFire",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 800,
+              "finalPrice": 800,
+              "basePrice": 800,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaGlider:Glider_ID_134_DarkVikingFire",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaGlider:Glider_ID_134_DarkVikingFire",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 1,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ID_134_DarkVikingFire.DA_Featured_Glider_ID_134_DarkVikingFire",
+          "categories": [
+            "Panel 9"
+          ]
+        },
+        {
+          "offerId": "6b468ff0-acef-460a-9383-2aa8011b6465",
+          "devName": "AthenaCharacter:CID_379_Athena_Commando_M_BattleHoundFire",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 800,
+              "finalPrice": 800,
+              "basePrice": 800,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaCharacter:CID_379_Athena_Commando_M_BattleHoundFire",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaCharacter:CID_379_Athena_Commando_M_BattleHoundFire",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 1,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_379_Athena_Commando_M_BattleHoundFire.DA_Featured_CID_379_Athena_Commando_M_BattleHoundFire",
+          "categories": [
+            "Panel 9"
+          ]
+        },
+        {
+          "offerId": "1933fb56-39a1-4982-9221-7a7cfce75fa5",
+          "devName": "AthenaCharacter:CID_380_Athena_Commando_F_DarkViking_Fire",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 800,
+              "finalPrice": 800,
+              "basePrice": 800,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaCharacter:CID_380_Athena_Commando_F_DarkViking_Fire",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaCharacter:CID_380_Athena_Commando_F_DarkViking_Fire",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 1,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_380_Athena_Commando_F_DarkViking_Fire.DA_Featured_CID_380_Athena_Commando_F_DarkViking_Fire",
+          "categories": [
+            "Panel 9"
+          ]
+        },
+        {
+          "offerId": "8d6049fe-b5ee-4b23-82bd-775288bf6fcd",
+          "devName": "AthenaPickaxe:Pickaxe_ID_091_Hacivat",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 500,
+              "finalPrice": 500,
+              "basePrice": 500,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaPickaxe:Pickaxe_ID_091_Hacivat",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaPickaxe:Pickaxe_ID_091_Hacivat",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 4,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_091_Hacivat.DA_Featured_Pickaxe_ID_091_Hacivat",
+          "categories": [
+            "Panel 10"
+          ]
+        },
+        {
+          "offerId": "6a538406-15f5-406a-9585-03d7160fd0fa",
+          "devName": "AthenaGlider:Glider_ID_069_Hacivat",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 1200,
+              "finalPrice": 1200,
+              "basePrice": 1200,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaGlider:Glider_ID_069_Hacivat",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaGlider:Glider_ID_069_Hacivat",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 3,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ID_069_Hacivat.DA_Featured_Glider_ID_069_Hacivat",
+          "categories": [
+            "Panel 10"
+          ]
+        },
+        {
+          "offerId": "3790db68-258f-4a6f-9aed-5e03167d5bd1",
+          "devName": "AthenaBackpack:BID_108_HacivatMale",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 800,
+              "finalPrice": 800,
+              "basePrice": 800,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaBackpack:BID_108_HacivatMale",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaBackpack:BID_108_HacivatMale",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 2,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_BID_108_HacivatMale.DA_Featured_BID_108_HacivatMale",
+          "categories": [
+            "Panel 10"
+          ]
+        },
+        {
+          "offerId": "62a13f7b-9179-42e3-ab35-e9a18498e0c9",
+          "devName": "AthenaCharacter:CID_219_Athena_Commando_M_Hacivat",
+          "offerType": "StaticPrice",
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "regularPrice": 1500,
+              "finalPrice": 1500,
+              "basePrice": 1500,
+              "saleExpiration": "9999-12-31T23:59:59.999Z"
+            }
+          ],
+          "itemGrants": [
+            {
+              "templateId": "AthenaCharacter:CID_219_Athena_Commando_M_Hacivat",
+              "quantity": 1
+            }
+          ],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaCharacter:CID_219_Athena_Commando_M_Hacivat",
+              "minQuantity": 1
+            }
+          ],
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "sortPriority": 1,
+          "catalogGroupPriority": 0,
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_219_Athena_Commando_M_Hacivat.DA_Featured_CID_219_Athena_Commando_M_Hacivat",
+          "categories": [
+            "Panel 10"
+          ]
+        }
+      ]
+    }
+  ]
+}

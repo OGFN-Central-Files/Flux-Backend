@@ -1,0 +1,72 @@
+{
+  "name": "flux-backend",
+  "version": "1.12.0",
+  "description": "Fortnite backend services with launcher shop panels, bundle metadata, enhanced leaderboards, stable 9.x matchmaking, and Discord account commands",
+  "main": "src/index.js",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dirname-filename-esm": "^1.1.1",
+    "discord.js": "^14.26.4",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "express-rate-limit": "^6.7.0",
+    "express-session": "^1.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "keyv": "^4.5.2",
+    "mongodb": "^4.17.2",
+    "mongoose": "^6.13.8",
+    "node-cache": "^5.1.2",
+    "node-cron": "^4.5.0",
+    "qs": "^6.11.2",
+    "uuid": "^14.0.0",
+    "ws": "^8.13.0",
+    "xml-parser": "^1.2.1",
+    "xmlbuilder": "^15.1.1"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "start:discord-auth": "node src/discord/auth/auth.js",
+    "start:shop-rotator": "node src/ShopRotater/Rotate.js",
+    "start:hype": "node src/api/Hype.js",
+    "start:vbucks": "node src/api/vbucks.js",
+    "start:umbrella": "node src/api/seasonUmbrella.js",
+    "start:xp": "node src/api/XP.js",
+    "start:lawin": "node src/api/Lawin.js",
+    "check": "node scripts/check-source.js",
+    "test": "node --import ./tests/setup-env.js --test tests/*.test.js",
+    "prod": "node src/index.js",
+    "start:quest": "node src/api/Quest.js",
+    "deploy:commands": "node src/discord/deploy-commands.js",
+    "config:check": "node scripts/check-env.js",
+    "validate": "npm run check && npm run config:check && npm test"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "keywords": [
+    "fortnite",
+    "backend",
+    "node",
+    "server",
+    "v2"
+  ],
+  "author": "Pablo",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "overrides": {
+    "undici": "6.27.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

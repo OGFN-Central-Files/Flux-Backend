@@ -1,0 +1,24 @@
+{
+  "featured": [
+    {
+      "name": "Cyber Bundle",
+      "bundle": [
+        "CID_452_Athena_Commando_F_CyberFu",
+        "BID_331_CyberFu"
+      ],
+      "price": 1800,
+      "panel": "Panel 7"
+    }
+  ],
+  "daily": [
+    {
+      "item": "EID_DanceMoves",
+      "price": 500,
+      "panel": "Panel 1"
+    }
+  ],
+  "autorotatePanels": {
+    "daily": 6,
+    "featured": 4
+  }
+}
